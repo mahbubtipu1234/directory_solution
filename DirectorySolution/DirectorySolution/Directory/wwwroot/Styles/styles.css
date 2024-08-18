@@ -1,0 +1,15 @@
+﻿.mud-nav-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.mud-nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+    .mud-nav-link:hover {
+        background-color: #1976d2;
+        border-radius: 5px;
+    }

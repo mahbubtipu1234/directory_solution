@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "I:\\ValuePlus\\DirectorySolution\\Directory\\wwwroot\\Images\\Barcelona.jpg",
+      "PackagePath": "staticwebassets\\Images\\Barcelona.jpg"
+    },
+    {
+      "Id": "I:\\ValuePlus\\DirectorySolution\\Directory\\wwwroot\\Images\\Eiffel_T600x400.jpg",
+      "PackagePath": "staticwebassets\\Images\\Eiffel_T600x400.jpg"
+    },
+    {
+      "Id": "I:\\ValuePlus\\DirectorySolution\\Directory\\wwwroot\\Images\\Home Page Banner.png",
+      "PackagePath": "staticwebassets\\Images\\Home Page Banner.png"
+    },
+    {
+      "Id": "I:\\ValuePlus\\DirectorySolution\\Directory\\wwwroot\\Images\\Logo_Directory.PNG",
+      "PackagePath": "staticwebassets\\Images\\Logo_Directory.PNG"
+    },
+    {
+      "Id": "I:\\ValuePlus\\DirectorySolution\\Directory\\wwwroot\\Images\\New_Y.jpg",
+      "PackagePath": "staticwebassets\\Images\\New_Y.jpg"
+    },
+    {
+      "Id": "I:\\ValuePlus\\DirectorySolution\\Directory\\wwwroot\\Images\\Pra.jpg",
+      "PackagePath": "staticwebassets\\Images\\Pra.jpg"
+    },
+    {
+      "Id": "I:\\ValuePlus\\DirectorySolution\\Directory\\wwwroot\\Images\\rom1.jpeg",
+      "PackagePath": "staticwebassets\\Images\\rom1.jpeg"
+    },
+    {
+      "Id": "I:\\ValuePlus\\DirectorySolution\\Directory\\wwwroot\\Images\\rom3.jpeg",
+      "PackagePath": "staticwebassets\\Images\\rom3.jpeg"
+    },
+    {
+      "Id": "I:\\ValuePlus\\DirectorySolution\\Directory\\wwwroot\\Images\\rom4.jpeg",
+      "PackagePath": "staticwebassets\\Images\\rom4.jpeg"
+    },
+    {
+      "Id": "I:\\ValuePlus\\DirectorySolution\\Directory\\wwwroot\\Images\\room2.jpeg",
+      "PackagePath": "staticwebassets\\Images\\room2.jpeg"
+    },
+    {
+      "Id": "I:\\ValuePlus\\DirectorySolution\\Directory\\wwwroot\\Styles\\styles.css",
+      "PackagePath": "staticwebassets\\Styles\\styles.css"
+    },
+    {
+      "Id": "I:\\ValuePlus\\DirectorySolution\\Directory\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Directory.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Directory.props",
+      "PackagePath": "build\\Directory.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Directory.props",
+      "PackagePath": "buildMultiTargeting\\Directory.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Directory.props",
+      "PackagePath": "buildTransitive\\Directory.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

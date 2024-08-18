@@ -1,0 +1,231 @@
+﻿@page "/"
+
+@using System.Threading
+
+<MudPaper Class="">
+    <MudToolBar>
+        <MudImage Src="Images/Logo_Directory.PNG" Alt="Mony the dog" Width="180" Height="50" Style="margin-right:50px" Class="rounded-lg" />
+        <MudTextField @bind-Value="TextValue" Label="Search" Variant="Variant.Filled" Style="width:300px"></MudTextField>
+        <MudSpacer />
+        <MudMenu Label="Home" Variant="Variant.Filled" EndIcon="@Icons.Material.Filled.KeyboardArrowDown" IconColor="Color.Secondary">
+            <MudMenuItem>Rooms</MudMenuItem>
+            <MudMenuItem>Restaurens</MudMenuItem>
+            <MudMenuItem>Travel</MudMenuItem>
+            <MudMenuItem>Real Starte</MudMenuItem>
+        </MudMenu>
+        <MudMenu Label="Template" Variant="Variant.Filled" EndIcon="@Icons.Material.Filled.KeyboardArrowDown" IconColor="Color.Secondary">
+            <MudMenuItem>Rooms</MudMenuItem>
+            <MudMenuItem>Restaurens</MudMenuItem>
+            <MudMenuItem>Travel</MudMenuItem>
+            <MudMenuItem>Real Starte</MudMenuItem>
+        </MudMenu>
+        <MudMenu Label="Contact" Variant="Variant.Filled" IconColor="Color.Secondary">
+            
+        </MudMenu>
+        <MudMenu Label="Docs" Variant="Variant.Filled" EndIcon="@Icons.Material.Filled.KeyboardArrowDown" IconColor="Color.Secondary">
+            <MudMenuItem>Rooms</MudMenuItem>
+            <MudMenuItem>Restaurens</MudMenuItem>
+            <MudMenuItem>Travel</MudMenuItem>
+            <MudMenuItem>Real Starte</MudMenuItem>
+        </MudMenu>
+        <MudMenu Label="Sign In" Variant="Variant.Filled" IconColor="Color.Secondary"></MudMenu>
+        <MudMenu Label="Sign Up" Variant="Variant.Filled" IconColor="Color.Secondary"></MudMenu>
+        <MudMenu Label="Add a Listing" Variant="Variant.Filled" IconColor="Color.Secondary"></MudMenu>
+    </MudToolBar>
+</MudPaper>
+<MudPaper  Class="banner-background" Style="height:700px; margin-bottom: 16px;">
+    <MudText Typo="Typo.h5" Style="padding-top:150px;color:aliceblue;margin-left:20px">
+        The Best Holiday Experience
+    </MudText>
+    <MudText Typo="Typo.h2" Style="padding-top:30px;color:aliceblue;font-weight:bold;margin-left:20px">
+        Stay Like A Local
+    </MudText>
+     <MudToolBar Style="background-color:white;width:65%;margin-left:20px;margin-top:50px;border-radius:30px">
+        <MudTextField @bind-Value="TextValue" Label="What You Are Searching For" Style="width:300px;font-weight:bold;"></MudTextField>
+        <MudTextField @bind-Value="TextValue" Label="Location" Style="width:300px;font-weight:bold;"></MudTextField>
+        <MudMenu Label="Categories"  EndIcon="@Icons.Material.Filled.KeyboardArrowUp" IconColor="Color.Secondary">
+            <MudMenuItem>Rooms</MudMenuItem>
+            <MudMenuItem>Restaurens</MudMenuItem>
+            <MudMenuItem>Travel</MudMenuItem>
+            <MudMenuItem>Real Starte</MudMenuItem>
+        </MudMenu>
+        <MudMenu Label="Search" Variant="Variant.Filled" Color="Color.Info" IconColor="Color.Secondary" Style="border-radius:80px">
+
+        </MudMenu>
+     </MudToolBar>
+</MudPaper>
+<MudPaper Style="margin:auto;justify-content:center">
+    <MudText Align="Align.Center" Typo="Typo.h5" Style="font-weight:bold;color:brown">
+        One-of-a-kind vacation rentals
+    </MudText>
+    <MudText Typo="Typo.h2" Align="Align.Center" Style="font-weight:bold;color:black">
+        Booking with us is easy
+    </MudText>
+</MudPaper>
+<div class="d-flex justify-content-between" style="justify-content: space-between;margin-top:5px;">
+    <div style="display:inline-block;border:1px solid black">
+        <MudCard  Class="d-inline">
+            <MudCardHeader Style="justify-content:center">
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Info"></MudAvatar>
+                </CardHeaderAvatar>
+            </MudCardHeader>
+            <MudCardContent Style="text-align:center;width:450px;border:1px solid black">
+                <MudText Typo="Typo.body1" >One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed in</MudText>
+            </MudCardContent>
+        </MudCard>
+    </div>
+    <div style="display:inline-block;border:1px solid black">
+        <MudCard Class="d-inline">
+            <MudCardHeader Style="justify-content:center">
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Info"></MudAvatar>
+                </CardHeaderAvatar>
+            </MudCardHeader>
+            <MudCardContent Style="text-align:center;width:450px;border:1px solid black">
+                <MudText Typo="Typo.body1" > One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed in</MudText>
+            </MudCardContent>
+        </MudCard>
+    </div>
+    <div style="display:inline-block;border:1px solid black">
+        <MudCard Class="d-inline">
+            <MudCardHeader Style="justify-content:center">
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Info"></MudAvatar>
+                </CardHeaderAvatar>
+            </MudCardHeader>
+            <MudCardContent Style="text-align:center;width:450px;">
+                <MudText Typo="Typo.body1" >One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed in</MudText>
+            </MudCardContent>
+        </MudCard>
+    </div>
+</div>
+
+<MudGrid Style="margin-left:10px;margin-top:30px">
+    <MudPaper xs="2" class="banner-background-2">
+        <MudText Typo="Typo.h2" Style="padding-top:150px;color:aliceblue;font-weight:bold;margin-left:20px">
+            New York
+        </MudText>
+        <MudText Typo="Typo.h5" Style="padding-top:40px;color:aliceblue;margin-left:20px">
+            The Best Holiday Experience
+        </MudText>
+    </MudPaper>
+    <MudPaper xs="2" class="banner-background-2" Style="background-image:url('Images/Eiffel_T600x400.jpg')">
+        <MudText Typo="Typo.h2" Style="padding-top:150px;color:aliceblue;font-weight:bold;margin-left:20px">
+            Paris
+        </MudText>
+        <MudText Typo="Typo.h5" Style="padding-top:40px;color:aliceblue;margin-left:20px">
+            The Best Holiday Experience
+        </MudText>
+    </MudPaper>
+    <MudPaper xs="2" class="banner-background-2" Style="background-image:url('Images/Barcelona.jpg')">
+        <MudText Typo="Typo.h3" Style="padding-top:150px;color:aliceblue;font-weight:bold;margin-left:20px">
+            Bercelona
+        </MudText>
+        <MudText Typo="Typo.h5" Style="padding-top:40px;color:aliceblue;margin-left:20px">
+            The Best Holiday Experience
+        </MudText>
+    </MudPaper>
+    <MudPaper xs="2" class="banner-background-2" Style="background-image:url('Images/Pra.jpg')">
+        <MudText Typo="Typo.h2" Style="padding-top:150px;color:aliceblue;font-weight:bold;margin-left:20px">
+            PRAGUE
+        </MudText>
+        <MudText Typo="Typo.h5" Style="padding-top:40px;color:aliceblue;margin-left:20px">
+            The Best Holiday Experience
+        </MudText>
+    </MudPaper>
+    <MudPaper xs="2" class="banner-background-2">
+        <MudText Typo="Typo.h2" Style="padding-top:150px;color:aliceblue;font-weight:bold;margin-left:20px">
+            New York
+        </MudText>
+        <MudText Typo="Typo.h5" Style="padding-top:40px;color:aliceblue;margin-left:20px">
+            The Best Holiday Experience
+        </MudText>
+    </MudPaper>
+</MudGrid>
+<MudGrid Style="margin-left:50px;margin-top:30px">
+        <MudItem xs="3">
+    <MudCard width="250px">
+            <MudCardMedia Image="images/rom4.jpeg" Height="200" />
+        <MudCardContent>
+            <MudText Typo="Typo.h5">Old Paint</MudText>
+            <MudText Typo="Typo.body2">Old paint found on a stone house door.</MudText>
+            <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
+        </MudCardContent>
+        <MudCardActions>
+            <MudButton Variant="Variant.Text" Color="Color.Primary">Share</MudButton>
+            <MudButton Variant="Variant.Text" Color="Color.Primary">Learn More</MudButton>
+        </MudCardActions>
+    </MudCard>
+    </MudItem>
+    <MudItem xs="3">
+        <MudCard width="250px">
+            <MudCardMedia Image="images/rom3.jpeg" Height="200" />
+            <MudCardContent>
+                <MudText Typo="Typo.h5">Old Paint</MudText>
+                <MudText Typo="Typo.body2">Old paint found on a stone house door.</MudText>
+                <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton Variant="Variant.Text" Color="Color.Primary">Share</MudButton>
+                <MudButton Variant="Variant.Text" Color="Color.Primary">Learn More</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </MudItem>
+    <MudItem xs="3">
+        <MudCard width="250px">
+            <MudCardMedia Image="images/room2.jpeg" Height="200" />
+            <MudCardContent>
+                <MudText Typo="Typo.h5">Old Paint</MudText>
+                <MudText Typo="Typo.body2">Old paint found on a stone house door.</MudText>
+                <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton Variant="Variant.Text" Color="Color.Primary">Share</MudButton>
+                <MudButton Variant="Variant.Text" Color="Color.Primary">Learn More</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </MudItem>
+    <MudItem xs="3">
+        <MudCard width="250px">
+            <MudCardMedia Image="images/rom1.jpeg" Height="200" />
+            <MudCardContent>
+                <MudText Typo="Typo.h5">Old Paint</MudText>
+                <MudText Typo="Typo.body2">Old paint found on a stone house door.</MudText>
+                <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton Variant="Variant.Text" Color="Color.Primary">Share</MudButton>
+                <MudButton Variant="Variant.Text" Color="Color.Primary">Learn More</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </MudItem>
+</MudGrid>
+    
+
+
+
+
+<style>
+    .banner-background {
+        background-image: url('Images/Home Page Banner.PNG'); 
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px; 
+    }
+
+    .banner-background-2 {
+        background-image: url('Images/New_Y.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+        width:250px;
+        height:400px;
+        margin:20px;
+    }
+</style>
+
+
+@code {
+    public string TextValue { get; set; } = default!;
+}
